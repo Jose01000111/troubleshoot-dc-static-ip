@@ -71,4 +71,3 @@ Your Domain Controller now has a stable IP, ensuring consistent DNS and domain f
 
 ### 💬 Quick Tip
 Think of your DC like a library. If the address keeps changing, nobody knows where to return the books. 📚
-
