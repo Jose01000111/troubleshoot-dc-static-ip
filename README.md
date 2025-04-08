@@ -1,4 +1,6 @@
-# troubleshoot-dc-static-ip
+<p align="center">
+<img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
+</p>
 
 ### 🛠️ Troubleshooting: Forgot to Assign a Static IP to My DC
 
@@ -15,6 +17,9 @@ A Domain Controller must have a static private IP address so clients and service
 
 https://imgur.com/qCz50rw
 
+<p align="center">
+<img src="https://i.imgur.com/qCz50rw.png" alt="osTicket logo"/>
+</p>
 - Navigate to Your VM (Domain Controller)
 
 - Go to Virtual Machines
@@ -25,24 +30,36 @@ https://imgur.com/qCz50rw
 
 https://imgur.com/VAzqb3E
 
+<p align="center">
+<img src="https://i.imgur.com/VAzqb3E.png" alt="osTicket logo"/>
+</p>
 - In the left pane, click Networking
 
 - Under Network Interface, click the NIC name (example: dc-nic)
 
-https://imgur.com/DT6I835
+https://imgur.com
 
+<p align="center">
+<img src="https://i.imgur.com/DT6I835.png" alt="osTicket logo"/>
+</p>
 ### Set Static Private IP
 
 - Click IP Configurations under Settings
 
 https://imgur.com/hZzRxlo
 
+<p align="center">
+<img src="https://i.imgur.com/hZzRxlo.png" alt="osTicket logo"/>
+</p>
 - Click the IP configuration (usually ipconfig1)
 
 - Change Assignment from Dynamic ➡️ Static
 
 https://imgur.com/5vQNIvv
 
+<p align="center">
+<img src="https://i.imgur.com/5vQNIvv.png" alt="osTicket logo"/>
+</p>
 - Use the current IP to avoid issues
 
 - Click Save
