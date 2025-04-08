@@ -13,6 +13,8 @@ A Domain Controller must have a static private IP address so clients and service
 
 - Go to https://portal.azure.com
 
+https://imgur.com/qCz50rw
+
 - Navigate to Your VM (Domain Controller)
 
 - Go to Virtual Machines
