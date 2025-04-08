@@ -2,13 +2,11 @@
 <img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
 </p>
 
-### 🛠️ Troubleshooting: Forgot to Assign a Static IP to My DC
+### Day 2.5 – Fixing a Critical Oversight (Static IP Issue)
 
-### 🧩 Overview
-In this quick lab, we fix a common mistake: forgetting to assign a static IP to the Domain Controller (DC) in Azure. Without a static IP, services like DNS and Active Directory can become unreliable.
+While reviewing my setup, I had a gut feeling something was missing. I quickly realized the Domain Controller didn’t have a static IP assigned—putting DNS and authentication at risk with every reboot.
 
-### ❓ Why It Matters
-A Domain Controller must have a static private IP address so clients and services always know where to find it. If Azure randomly changes your DC’s IP on reboot, domain authentication and DNS resolution can break.
+I configured a static private IP in Azure to ensure stability for DNS and domain services. (Consulted ChatGPT to verify the process and prevent future outages.)
 
 ### 🛠️ Steps to Fix in Azure
 - Login to the Azure Portal
