@@ -10,7 +10,7 @@ A Domain Controller must have a static private IP address so clients and service
 
 ### 🛠️ Steps to Fix in Azure
 - Login to the Azure Portal
-- 
+
 - Go to https://portal.azure.com
 
 - Navigate to Your VM (Domain Controller)
@@ -21,21 +21,29 @@ A Domain Controller must have a static private IP address so clients and service
 
 - Go to the Network Interface
 
+https://imgur.com/VAzqb3E
+
 - In the left pane, click Networking
 
 - Under Network Interface, click the NIC name (example: dc-nic)
 
-- Set Static Private IP
+https://imgur.com/DT6I835
+
+### Set Static Private IP
 
 - Click IP Configurations under Settings
+
+https://imgur.com/hZzRxlo
 
 - Click the IP configuration (usually ipconfig1)
 
 - Change Assignment from Dynamic ➡️ Static
 
-- Use the current IP to avoid issues (or pick an unused one in the subnet)
+https://imgur.com/5vQNIvv
 
-Click Save
+- Use the current IP to avoid issues
+
+- Click Save
 
 ### (Optional) Restart the VM
 This ensures the network services recognize the change.
