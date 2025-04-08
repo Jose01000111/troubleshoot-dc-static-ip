@@ -8,7 +8,7 @@ While reviewing my setup, I had a gut feeling something was missing. I quickly r
 
 I configured a static private IP in Azure to ensure stability for DNS and domain services. (Consulted ChatGPT to verify the process and prevent future outages.)
 
-### 🛠️ Steps to Fix in Azure
+### 🧪 Lab Tasks
 - Login to the Azure Portal
 
 - Go to https://portal.azure.com
