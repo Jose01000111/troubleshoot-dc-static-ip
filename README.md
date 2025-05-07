@@ -9,53 +9,35 @@ While reviewing my setup, I had a gut feeling something was missing. I quickly r
 I configured a static private IP in Azure to ensure stability for DNS and domain services. (Consulted ChatGPT to verify the process and prevent future outages.)
 
 ### 🧪 Lab Tasks
-- Login to the Azure Portal
-
-- Go to https://portal.azure.com
+I log in to the Azure portal at https://portal.azure.com.
 
 <p align="center">
 <img src="https://i.imgur.com/qCz50rw.png" alt="osTicket logo"/>
 </p>
 
-- Navigate to Your VM (Domain Controller)
-
-- Go to Virtual Machines
-
-- Click on the VM running your DC
-
-- Go to the Network Interface
+Next, I go to Virtual Machines in the Azure portal. I click on the VM running my Domain Controller (DC).
+Then, I go to the Network Interface section of the VM.
 
 <p align="center">
 <img src="https://i.imgur.com/VAzqb3E.png" alt="osTicket logo"/>
 </p>
 
-- In the left pane, click Networking
-
-- Under Network Interface, click the NIC name (example: dc-nic)
+In the left pane, I click on Networking. Under the Network Interface section, I select the NIC name (for example, dc-nic).
 
 <p align="center">
 <img src="https://i.imgur.com/DT6I835.png" alt="osTicket logo"/>
 </p>
 
 ### Set Static Private IP
-
-- Click IP Configurations under Settings
+I click on IP Configurations under Settings, then click the IP configuration (usually labeled ipconfig1). I change the Assignment from Dynamic to Static and use the current IP to avoid any issues. Afterward, I click Save.
 
 <p align="center">
 <img src="https://i.imgur.com/hZzRxlo.png" alt="osTicket logo"/>
 </p>
 
-- Click the IP configuration (usually ipconfig1)
-
-- Change Assignment from Dynamic ➡️ Static
-
 <p align="center">
 <img src="https://i.imgur.com/5vQNIvv.png" alt="osTicket logo"/>
 </p>
-
-- Use the current IP to avoid issues
-
-- Click Save
 
 ### (Optional) Restart the VM
 This ensures the network services recognize the change.
